@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BRAISE — Smash burgers au feu de bois à Paris</title>
+<meta name="description" content="BRAISE, smash burgers grillés au feu de bois à Paris. Pain brioché maison, viande fraîche, frites maison. Réservez votre table ou commandez à emporter.">
+<meta property="og:title" content="BRAISE — Smash burgers au feu de bois">
+<meta property="og:description" content="Smash burgers grillés au feu de bois, pain brioché maison, produits locaux. À Paris.">
+<meta property="og:type" content="restaurant.restaurant">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/d/d0/Hamburger_on_Brioche.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "BRAISE",
+  "servesCuisine": "Burgers",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27 rue de la Roquette",
+    "postalCode": "75011",
+    "addressLocality": "Paris",
+    "addressCountry": "FR"
+  },
+  "telephone": "+33123456789",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "12:00", "closes": "14:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "19:00", "closes": "22:30" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="#top" class="logo"><span class="flame">🔥</span> BRAISE</a>
+    <nav class="main-nav" id="main-nav">
+      <a href="#menu">Menu</a>
+      <a href="#histoire">Notre histoire</a>
+      <a href="#ambiance">Ambiance</a>
+      <a href="#infos">Infos pratiques</a>
+      <a href="#contact">Réserver</a>
+    </nav>
+    <a href="#contact" class="btn btn-ember" style="padding:12px 22px; font-size:.85rem">Réserver une table</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/d0/Hamburger_on_Brioche.jpg')">
+    <div class="container hero-content">
+      <p class="eyebrow">Paris · Smash burgers artisanaux</p>
+      <h1>Smash burgers,<br>feu de bois.</h1>
+      <p style="color:var(--muted); font-size:1.15rem; max-width:520px">
+        Viande écrasée à la plancha ultra chaude, pain brioché maison, une pointe de fumée au bois de hêtre.
+        Le burger, fait sérieusement.
+      </p>
+      <div class="cta-row">
+        <a href="#menu" class="btn btn-ember">Voir la carte</a>
+        <a href="#contact" class="btn btn-ghost">Réserver une table</a>
+      </div>
+      <div class="trust">
+        <span>★★★★★</span>
+        <span>Pain brioché maison · Viande jamais congelée · Frites maison</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container">
+      <span><strong>100%</strong> fait maison</span>
+      <span><strong>Bois de hêtre</strong> pour la fumée</span>
+      <span><strong>Producteurs locaux</strong> sélectionnés</span>
+      <span><strong>Ouvert</strong> 7j/7 sauf lundi</span>
+    </div>
+  </div>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">La carte</p>
+        <h2>Nos smash burgers</h2>
+        <p style="color:var(--muted)">Cinq burgers, une seule obsession : le goût du feu de bois.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card reveal">
+          <div class="photo"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Hamburger_on_Brioche.jpg" alt="Le Classique, smash burger au cheddar affiné et oignons caramélisés"></div>
+          <div class="body">
+            <span class="tag">Signature</span>
+            <div class="row"><h3>Le Classique</h3><span class="price">11 €</span></div>
+            <p class="desc">Smash beef, cheddar affiné, oignons caramélisés, sauce Braise maison, pain brioché.</p>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <div class="photo"><img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_on_plate.jpg" alt="Le Fumé, smash burger avec bacon fumé au bois de hêtre"></div>
+          <div class="body">
+            <span class="tag">Best-seller</span>
+            <div class="row"><h3>Le Fumé</h3><span class="price">13 €</span></div>
+            <p class="desc">Smash beef, bacon fumé au bois de hêtre, cheddar, oignons crispy, sauce BBQ maison.</p>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <div class="photo"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Argentine_homemade_hamburger_with_lettuce%2C_tomato_and_cheese.jpg" alt="Le Frais, smash burger salade tomate fromage"></div>
+          <div class="body">
+            <div class="row"><h3>Le Frais</h3><span class="price">12 €</span></div>
+            <p class="desc">Smash beef, salade, tomate confite, cheddar doux, sauce maison légère.</p>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <div class="photo"><img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Podnah%27s_Pit_Barbecue_3.jpg" alt="Le Picante, smash burger épicé grillé au feu de bois"></div>
+          <div class="body">
+            <span class="tag">Épicé</span>
+            <div class="row"><h3>Le Picante</h3><span class="price">12,5 €</span></div>
+            <p class="desc">Smash beef, jalapeños, pepper jack, sauce chipotle-mayo maison.</p>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <div class="photo"><img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Restaurant_at_dusk_%28Unsplash%29.jpg" alt="Le Double, deux smash beef double cheddar"></div>
+          <div class="body">
+            <span class="tag">Pour les grosses faims</span>
+            <div class="row"><h3>Le Double</h3><span class="price">14,5 €</span></div>
+            <p class="desc">Deux smash beef, double cheddar, oignons caramélisés, sauce secrète.</p>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <div class="photo"><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Chips_in_newspaper_cone.jpg" alt="Le Veggie Braise, steak de champignons grillé"></div>
+          <div class="body">
+            <span class="tag">Végétarien</span>
+            <div class="row"><h3>Le Veggie Braise</h3><span class="price">12 €</span></div>
+            <p class="desc">Steak de champignons portobello grillé à la braise, cheddar, oignons confits.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="sides-list reveal">
+        <div class="side-item"><span>Frites maison, graisse de canard</span><span class="price">4,5 €</span></div>
+        <div class="side-item"><span>Onion rings croustillants</span><span class="price">5 €</span></div>
+        <div class="side-item"><span>Coleslaw maison</span><span class="price">3,5 €</span></div>
+        <div class="side-item"><span>Milkshake vanille bourbon</span><span class="price">6 €</span></div>
+        <div class="side-item"><span>Milkshake caramel beurre salé</span><span class="price">6 €</span></div>
+        <div class="side-item"><span>Cookie chocolat-noisette chaud</span><span class="price">5 €</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section id="histoire" style="background:var(--surface)">
+    <div class="container story">
+      <img class="reveal" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Podnah%27s_Pit_Barbecue_3.jpg" alt="Braise et flammes du grill au bois de hêtre">
+      <div class="content reveal">
+        <p class="eyebrow">Notre histoire</p>
+        <h2>Une obsession pour le feu</h2>
+        <p>Tout est parti d'une conviction simple : un burger, ça se cuit au feu, pas à l'électrique. Chez BRAISE, la viande est écrasée à la plancha porté à très haute température (la technique "smash"), pour une croûte caramélisée maximale, puis finie avec une pointe de fumée au bois de hêtre.</p>
+        <ul>
+          <li>Pain brioché préparé chaque matin</li>
+          <li>Viande fraîche, jamais congelée, sourcée auprès de producteurs locaux</li>
+          <li>Frites maison, coupées et cuites sur place</li>
+          <li>Sauces maison, sans additifs inutiles</li>
+        </ul>
+        <p>Pas de chaîne, pas de recette figée à distance : chaque burger part de la même exigence, celle du geste fait sur place, devant vous.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- AMBIANCE -->
+  <section id="ambiance" class="ambiance" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/15/Restaurant_at_dusk_%28Unsplash%29.jpg')">
+    <div class="content reveal">
+      <p class="eyebrow">L'ambiance</p>
+      <h2>Un repaire pour les soirs de faim</h2>
+      <p style="color:var(--muted)">Lumière tamisée, comptoir ouvert sur la plancha, musique qui ne couvre pas la conversation. On vient pour le burger, on reste pour l'ambiance.</p>
+    </div>
+  </section>
+
+  <!-- INFOS PRATIQUES -->
+  <section id="infos">
+    <div class="container infos-grid">
+      <div class="reveal">
+        <div class="section-head" style="margin-bottom:24px">
+          <p class="eyebrow">Infos pratiques</p>
+          <h2>Nous trouver</h2>
+        </div>
+        <div class="info-card">
+          <h3>Horaires</h3>
+          <div class="hours"><span>Lundi</span><span>Fermé</span></div>
+          <div class="hours"><span>Mardi – Dimanche</span><span>12h – 14h30</span></div>
+          <div class="hours"><span>Mardi – Dimanche</span><span>19h – 22h30</span></div>
+        </div>
+        <div class="info-card">
+          <h3>Adresse</h3>
+          <p style="margin-bottom:.4em">27 rue de la Roquette, 75011 Paris</p>
+          <p style="margin-bottom:.4em"><a href="tel:+33123456789" style="text-decoration:underline">01 23 45 67 89</a></p>
+          <p style="margin-bottom:0"><a href="mailto:bonjour@braise-burger.fr" style="text-decoration:underline">bonjour@braise-burger.fr</a></p>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="map-frame">
+          <p>[Emplacement carte Google Maps à intégrer — nécessite l'adresse réelle et une clé API Google Maps]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / RESERVATION -->
+  <section id="contact" style="background:var(--surface)">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">Réservation</p>
+        <h2>Réservez votre table</h2>
+        <p style="color:var(--muted)">Pour les groupes de plus de 8 personnes ou une privatisation, contactez-nous directement par téléphone.</p>
+      </div>
+      <form class="reserve reveal" novalidate>
+        <div class="row-2">
+          <div class="field">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error" data-error-for="name"></span>
+          </div>
+          <div class="field">
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" required>
+            <span class="error" data-error-for="phone"></span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error" data-error-for="email"></span>
+        </div>
+        <div class="row-2">
+          <div class="field">
+            <label for="date">Date souhaitée</label>
+            <input type="date" id="date" name="date" required>
+            <span class="error" data-error-for="date"></span>
+          </div>
+          <div class="field">
+            <label for="guests">Nombre de convives</label>
+            <input type="number" id="guests" name="guests" min="1" max="8" value="2" required>
+            <span class="error" data-error-for="guests"></span>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Message (optionnel)</label>
+          <textarea id="message" name="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-ember">Envoyer la demande</button>
+        <p class="form-note">Formulaire non connecté à un système d'envoi pour l'instant — à brancher (email, CRM ou Google Sheet) avant mise en ligne.</p>
+        <div class="form-success">Merci ! Votre demande a bien été prise en compte (simulation — aucun email n'a réellement été envoyé).</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container">
+      <h2>Une faim de feu de bois ?</h2>
+      <p style="max-width:480px; margin:0 auto 24px">Réservez votre table ou passez commande à emporter.</p>
+      <div class="cta-row" style="justify-content:center">
+        <a href="#contact" class="btn" style="background:var(--ink); color:var(--cream)">Réserver une table</a>
+        <a href="tel:+33123456789" class="btn btn-ghost">Appeler pour commander</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:12px"><span class="flame">🔥</span> BRAISE</div>
+        <p style="color:var(--muted); max-width:320px">Smash burgers grillés au feu de bois, à Paris. Pain brioché maison, produits locaux, sans compromis.</p>
+      </div>
+      <div>
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#histoire">Notre histoire</a></li>
+          <li><a href="#infos">Infos pratiques</a></li>
+          <li><a href="#contact">Réserver</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>27 rue de la Roquette, 75011 Paris</li>
+          <li><a href="tel:+33123456789">01 23 45 67 89</a></li>
+          <li><a href="mailto:bonjour@braise-burger.fr">bonjour@braise-burger.fr</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 BRAISE. Tous droits réservés.</span>
+      <span>
+        <a href="mentions-legales.html">Mentions légales</a> ·
+        <a href="confidentialite.html">Confidentialité</a>
+      </span>
+    </div>
+    <p class="credits">
+      Photos : Wikimedia Commons — Hamburger on Brioche · Burger on plate · Argentine homemade hamburger (CC BY-SA) ·
+      Chips in newspaper cone · Restaurant at dusk (Unsplash) · Podnah's Pit Barbecue. Vérifier la licence exacte de chaque fichier avant usage commercial réel.
+    </p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
